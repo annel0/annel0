@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="185" viewBox="0 0 1200 185" role="img" aria-labelledby="title desc">
+  <title id="title">annel0 profile telemetry</title>
+  <desc id="desc">This card will be refreshed automatically by GitHub Actions after the repository is uploaded.</desc>
+  <style>
+    .bg { fill: #f6f8fa; stroke: #d0d7de; }
+    .label { fill: #57606a; }
+    .value { fill: #1f2328; }
+    .muted { fill: #6e7781; }
+    .accent { fill: #0969da; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; stroke: #30363d; }
+      .label { fill: #8b949e; }
+      .value { fill: #f0f6fc; }
+      .muted { fill: #8b949e; }
+      .accent { fill: #58a6ff; }
+    }
+  </style>
+  <rect class="bg" x="1" y="1" width="1198" height="183" rx="20"/>
+  <text x="46" y="49" class="accent" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" font-weight="700">PROFILE TELEMETRY</text>
+  <text x="46" y="92" class="value" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="24" font-weight="600">Waiting for the first GitHub Actions refresh</text>
+  <text x="46" y="128" class="muted" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18">The included workflow will replace this card with live repository metrics.</text>
+  <text x="46" y="158" class="label" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">self-hosted · GitHub API · no third-party stats service</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">annel0</title>
+  <desc id="desc">Marketing by occupation, engineering by curiosity. AI, systems, automation, networking, experiments.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#f6f8fa"/>
+      <stop offset="1" stop-color="#eef2f7"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e85d04"/>
+      <stop offset="0.48" stop-color="#a928ae"/>
+      <stop offset="1" stop-color="#286ee8"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-300%" width="160%" height="700%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="330" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="328" rx="27" fill="none" stroke="#d0d7de"/>
+  <rect x="70" y="68" width="510" height="4" rx="2" fill="url(#accent)" opacity="0.95"/>
+  <rect x="70" y="68" width="510" height="4" rx="2" fill="url(#accent)" opacity="0.22" filter="url(#glow)"/>
+  <text x="70" y="150" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="66" font-weight="700" fill="#1f2328" letter-spacing="-2">annel0<tspan fill="#0969da">_</tspan></text>
+  <text x="73" y="200" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="25" fill="#57606a">marketing by occupation · engineering by curiosity</text>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" fill="#24292f">
+    <rect x="70" y="238" width="86" height="38" rx="19" fill="#ffffff" stroke="#d0d7de"/><text x="94" y="263">AI</text>
+    <rect x="168" y="238" width="122" height="38" rx="19" fill="#ffffff" stroke="#d0d7de"/><text x="189" y="263">systems</text>
+    <rect x="302" y="238" width="148" height="38" rx="19" fill="#ffffff" stroke="#d0d7de"/><text x="322" y="263">automation</text>
+    <rect x="462" y="238" width="146" height="38" rx="19" fill="#ffffff" stroke="#d0d7de"/><text x="482" y="263">networking</text>
+    <rect x="620" y="238" width="154" height="38" rx="19" fill="#ffffff" stroke="#d0d7de"/><text x="640" y="263">experiments</text>
+  </g>
+  <g transform="translate(915 66)" opacity="0.9">
+    <circle cx="90" cy="95" r="82" fill="none" stroke="#d8dee4" stroke-width="1"/>
+    <circle cx="90" cy="95" r="54" fill="none" stroke="#d0d7de" stroke-width="1"/>
+    <circle cx="90" cy="95" r="6" fill="#0969da"/>
+    <circle cx="34" cy="60" r="4" fill="#e85d04"/>
+    <circle cx="143" cy="54" r="4" fill="#a928ae"/>
+    <circle cx="141" cy="142" r="4" fill="#286ee8"/>
+    <circle cx="43" cy="147" r="4" fill="#1a7f37"/>
+    <path d="M34 60 L90 95 L143 54 M90 95 L141 142 M90 95 L43 147 M43 147 L141 142" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.72"/>
+  </g>
+</svg>
